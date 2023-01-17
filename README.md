@@ -24,6 +24,7 @@ Feel free to Clone or Fork this repository and check out the source code, there'
 ## Screenshots
 
 Ligh Mode
+![Home](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/loading_light.png)
 
 Dark Mode
 
