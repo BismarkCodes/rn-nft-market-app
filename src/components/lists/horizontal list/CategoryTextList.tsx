@@ -6,11 +6,17 @@ import Seperator from '../../Seperator';
 import {Colors} from '../../../constants/colors';
 import CategoryTextItem from '../list items/CategoryTextItem';
 
-const CategoryTextList: React.FC<{
+interface Props {
   data: object;
   activeCategory: string;
   itemOnPress: object;
-}> = ({data, activeCategory, itemOnPress}) => {
+}
+
+const CategoryTextList: React.FC<Props> = ({
+  data,
+  activeCategory,
+  itemOnPress,
+}) => {
   // hooks
   const {isDarkMode} = useSelector(state => state.theme);
 

@@ -7,11 +7,13 @@ import {Colors} from '../../../constants/colors';
 import CustomText from '../../text/CutomText';
 import Seperator from '../../Seperator';
 
-const FullScreenEmptyState: React.FC<{
+interface Props {
   text: string;
   iconName: string;
   iconSize: number;
-}> = ({text, iconName, iconSize}) => {
+}
+
+const FullScreenEmptyState: React.FC<Props> = ({text, iconName, iconSize}) => {
   // hooks
   const {isDarkMode} = useSelector(state => state.theme);
 

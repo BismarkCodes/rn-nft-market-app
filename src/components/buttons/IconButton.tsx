@@ -5,13 +5,15 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import {Colors} from '../../constants/colors';
 import {useSelector} from 'react-redux';
 
-const IconButton: React.FC<{
+interface Props {
   name: string;
   size: number;
   color: string;
   style: object;
   onPress: object;
-}> = ({name, size, color, style, onPress}) => {
+}
+
+const IconButton: React.FC<Props> = ({name, size, color, style, onPress}) => {
   // hooks
   const {isDarkMode} = useSelector(state => state.theme);
 

@@ -9,7 +9,7 @@ import CustomText from '../../text/CutomText';
 import Seperator from '../../Seperator';
 import {Colors} from '../../../constants/colors';
 
-const CreatorMiniCard: React.FC<{
+interface Props {
   type: 'small' | 'default';
   imageUrl: string;
   creatorName: string;
@@ -17,7 +17,9 @@ const CreatorMiniCard: React.FC<{
   coinPrice: number;
   coinType: 'BTC' | 'ETH';
   containerStyle: object;
-}> = ({
+}
+
+const CreatorMiniCard: React.FC<Props> = ({
   type,
   imageUrl,
   creatorName,

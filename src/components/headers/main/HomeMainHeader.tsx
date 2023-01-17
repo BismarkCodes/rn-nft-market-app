@@ -10,10 +10,12 @@ import IconButton from '../../buttons/IconButton';
 import Seperator from '../../Seperator';
 import RoundImageCard from '../../cards/image/RoundImageCard';
 
-const HomeMainHeader: React.FC<{
+interface Props {
   title: string;
   border: boolean;
-}> = ({title, border}) => {
+}
+
+const HomeMainHeader: React.FC<Props> = ({title, border}) => {
   // hooks
   const {isDarkMode} = useSelector(state => state.theme);
   const navigation = useNavigation();

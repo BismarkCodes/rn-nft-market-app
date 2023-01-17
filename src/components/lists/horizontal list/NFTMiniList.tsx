@@ -9,6 +9,15 @@ import {Colors} from '../../../constants/colors';
 import {useSelector} from 'react-redux';
 import CustomText from '../../text/CutomText';
 
+interface Props {
+  data: object;
+  horizontal: boolean;
+  loadMore: boolean;
+  onEndReached: object;
+  onEndReachedThreshold: number;
+}
+
+// load more NFT component
 const LoadMoreComponent = ({isDarkMode}) => {
   return (
     <View style={[styles.loadmore]}>
@@ -22,13 +31,13 @@ const LoadMoreComponent = ({isDarkMode}) => {
   );
 };
 
-const NFTMiniList: React.FC<{
-  data: object;
-  horizontal: boolean;
-  loadMore: boolean;
-  onEndReached: object;
-  onEndReachedThreshold: number;
-}> = ({data, horizontal, loadMore, onEndReached, onEndReachedThreshold}) => {
+const NFTMiniList: React.FC<Props> = ({
+  data,
+  horizontal,
+  loadMore,
+  onEndReached,
+  onEndReachedThreshold,
+}) => {
   const {isDarkMode} = useSelector(state => state.theme);
 
   // hooks

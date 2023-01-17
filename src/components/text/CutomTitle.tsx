@@ -5,12 +5,14 @@ import {useSelector} from 'react-redux';
 import {GlobalStyles} from '../styles/GlobalStyles';
 import {Colors} from '../../constants/colors';
 
-const CustomTitle: React.FC<{
+interface Props {
   text: string;
   numberOfLines: number;
   type: 'big' | 'medium' | 'small' | 'tiny';
   style: object;
-}> = ({text, numberOfLines, type, style}) => {
+}
+
+const CustomTitle: React.FC<Props> = ({text, numberOfLines, type, style}) => {
   // hooks
   const {isDarkMode} = useSelector(state => state.theme);
   return (

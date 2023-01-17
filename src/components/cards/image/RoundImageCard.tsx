@@ -6,11 +6,17 @@ import {useSelector} from 'react-redux';
 import {GlobalStyles} from '../../styles/GlobalStyles';
 import {Colors} from '../../../constants/colors';
 
-const RoundImageCard: React.FC<{
+interface Props {
   imageUrl: string;
   containerStyle: object;
   imageStyle: object;
-}> = ({imageUrl, containerStyle, imageStyle}) => {
+}
+
+const RoundImageCard: React.FC<Props> = ({
+  imageUrl,
+  containerStyle,
+  imageStyle,
+}) => {
   const {isDarkMode} = useSelector(state => state.theme);
 
   const imageBackgroundStyle = {

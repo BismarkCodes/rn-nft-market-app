@@ -2,6 +2,10 @@ import {StyleSheet, View} from 'react-native';
 import React from 'react';
 
 // config
+interface Props {
+  type: 'big' | 'medium' | 'small' | 'tiny';
+}
+
 function returnSeperatorDimensions(type: string) {
   return type === 'big'
     ? 32
@@ -12,9 +16,7 @@ function returnSeperatorDimensions(type: string) {
     : 8;
 }
 
-const Seperator: React.FC<{type: 'big' | 'medium' | 'small' | 'tiny'}> = ({
-  type,
-}) => {
+const Seperator: React.FC<Props> = ({type}) => {
   return (
     <View
       style={{

@@ -4,7 +4,11 @@ import {useSelector} from 'react-redux';
 
 import {Colors} from '../../constants/colors';
 
-const FullScreen: React.FC<{visible: boolean}> = ({visible}) => {
+interface Props {
+  visible: boolean;
+}
+
+const FullScreen: React.FC<Props> = ({visible}) => {
   // hooks
   const {isDarkMode} = useSelector(state => state.theme);
 

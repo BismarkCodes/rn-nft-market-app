@@ -6,10 +6,12 @@ import {Colors} from '../../constants/colors';
 import Seperator from '../Seperator';
 import CustomText from '../text/CutomText';
 
-const SearchFilterBottomSheeth: React.FC<{
+interface Props {
   visible: boolean;
   onClose: object;
-}> = ({visible, onClose}) => {
+}
+
+const SearchFilterBottomSheeth: React.FC<Props> = ({visible, onClose}) => {
   return (
     <Modal
       visible={visible}

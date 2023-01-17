@@ -7,12 +7,13 @@ import {Colors} from '../../../constants/colors';
 import CustomText from '../../text/CutomText';
 import Seperator from '../../Seperator';
 
-const MiniEmptyState: React.FC<{
+interface Props {
   text: string;
   iconName: string;
   textStyle: object;
-  //   iconSize: number;
-}> = ({text, iconName, textStyle}) => {
+}
+
+const MiniEmptyState: React.FC<Props> = ({text, iconName, textStyle}) => {
   // hooks
   const {isDarkMode} = useSelector(state => state.theme);
 

@@ -1,74 +1,157 @@
-# React Native NFT Marktet App
+# NFT Marketplace
 
-Just an NFT Market Application concept built using react native. I initially developed this to test Shopify's FlashList component compared to the react-native FlatList component.
+An open-source React Native application for buying and selling Non-Fungible Tokens (NFTs) built using Ethereum.
 
-To my surprise, FlashList is far more performant as compared to FlatList.
+## Features
 
-These are the screens available in this app as of now. Authentication and Payment screens will be added soon.
+- Browse and search for NFTs: The app allows users to view a list of available NFTs, filter and search for specific ones, and view detailed information about each one.
 
-1. Main Screens
+- Purchase NFTs using Ethereum: The app allows users to purchase NFTs using Ethereum, this includes the ability to view the purchase history and the transaction details
 
-- Home: `marketplace showcasing trending and all other NFTs available`
-- Saved NFTs: `a collection of the users favorite NFTs`
-- Auction: `users can take part in live bidding of NFTs`
-- Profile: `includes user settings, transactions, stats, etc`
+- List NFTs for sale: The app allows users to list their own NFTs for sale, this includes the ability to set the price and the details about the NFT
 
-2. Sub Screens
+- User authentication: The app provides user authentication functionality, allowing users to create accounts, sign in, and manage their personal information
 
-- Search: `live search feature that allows the user to search for NFTs`
-- Notification: `Alerts and Inbox messages for the user`
-- NFT Detail: `View detailed info about an NFT`
+- Save favorite NFTs: The app allows users to save their favorite NFTs, this includes the ability to view the saved list and remove from it
 
-Feel free to Clone or Fork this repository and check out the source code, there's plenty of good stuff in there I'm sure you'd find helpful in your next react-native project.
+## Screens
+
+1. Navigation Screens:
+
+- Home screen
+- NFT detail screen
+- Purchase screen
+- List NFT screen
+- Profile screen
+- Favorite NFTs screen
+
+2. Authentication Screens:
+
+- Login screen
+- Signup screen
+- Forgot Password screen
+
+3. Transaction Screens:
+
+- Transactions screen
+
+The Navigation Screens provide the main functionality of the app, allowing users to browse and search for NFTs, view details, purchase, and list NFTs for sale, and manage their favorite NFTs and profile.
+
+Authentication Screens are used for user registration and login, allowing users to access their account and personal information.
+
+Transaction Screens provide the feature of viewing the transaction history of purchases and sales.
 
 ## Screenshots
 
 Ligh Mode
 
+![Home Loading](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/loading_light.png)
+![Home](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/home_light.png)
+![NFT Detial](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/nft_2_light.png)
+![Empty State](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/empty_light.png)
+![Saved NFTs](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/saved_light.png)
+![Auction](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/auction_light.png)
+![Profile](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/profile_light.png)
+![Search](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/search_light.png)
+![Search Filter](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/search_filter_light.png)
+![Notification](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/notification_light.png)
+
 Dark Mode
 
-## Installation
+![Home Loading](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/loading_drk.png)
+![Home](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/home_drk.png)
+![NFT Detial](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/nft_drk.png)
+![Empty State](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/empty_drk.png)
+![Saved NFTs](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/saved_drk.png)
+![Auction](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/auction_drk.png)
+![Profile](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/profile_dark.png)
+![Search](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/search_drk.png)
+![Search Filter](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/search_filter_drk.png)
+![Notification](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/notification_drk.png)
 
-Clone or Fork the repository and then run the following code.
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+- React Native CLI
+- Ethereum development environment
+
+### Installation
+
+1. Clone the repository
 
 ```bash
-yarn
+git clone https://github.com/BismarkCodes/rn-nft-market-app.git
 ```
 
-## Dependencies
+2. Install dependencies
+   For npm,
 
-Most of the dependencies installed have not yet been used but will be used in future features as the app is being improved upon.
+```bash
+npm install
+```
 
-The dependencies installed in this repository include;
+Or for yarn
 
-1. [@react-native-async-storage/async-storage](https://react-native-async-storage.github.io/async-storage/docs/install/)
-2. [@react-navigation/bottom-tabs](https://reactnavigation.org/docs/bottom-tab-navigator/)
-3. [@react-navigation/native](https://reactnavigation.org/docs/getting-started)
-4. [@react-navigation/native-stack](https://reactnavigation.org/docs/hello-react-navigation)
-5. [@reduxjs/toolkit](https://redux-toolkit.js.org/)
-6. [@shopify/flash-list](https://shopify.github.io/flash-list/docs/)
-7. [axios](https://axios-http.com/docs/intro)
-8. [react-native-dotenv](https://github.com/goatandsheep/react-native-dotenv)
-9. [react-native-fast-image](https://github.com/DylanVann/react-native-fast-image/issues)
-10. [react-native-linear-gradient](https://github.com/react-native-linear-gradient/react-native-linear-gradient)
-11. [react-native-navigation-bar-color](https://github.com/thebylito/react-native-navigation-bar-color)
-12. [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
-13. [react-native-screens](https://github.com/software-mansion/react-native-screens)
-14. [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
-15. [react-redux](https://react-redux.js.org/introduction/getting-started)
+```bash
+yarn install
+```
 
-## Note To Developers
+3. Run the app on an emulator or device
 
-The current version of this app has been tested and developed for Android Devices as I don't use an iPhone yet and my MacBook is a little old to run Xcode on.
+```bash
+react-native run-ios
+```
 
-But hey, it's still open for you to make a few `pod-installs` and Xcode configs and you are good to go on iOS.
+or for android
+
+```bash
+react-native run-android
+```
+
+## Built With
+
+- React Native
 
 ## Contributing
+
+We welcome contributions to this project. Please read the ![CONTRIBUTING.md]() for details on our code of conduct, coding standards, and the process for submitting pull requests.
+
+## Versioning
+
+We use ![SemVer](https://semver.org/) for versioning.
+
+## Authors
+
+- ![Bismark Okletey](https://github.com/BismarkCodes/)
+
+## Contributors
+
+This repo currently has no contributers. To contribute, create a pull request ![here]()
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+## Acknowledgments
+
+- Ethereum for creating the technology that makes NFTs possible.
+- The React Native community for building and maintaining a powerful framework for building mobile applications.
+
+## Disclaimer
+
+This is not a production-ready application and is intended for educational and development purposes only. Use at your own risk.
+
+## Contact
+
+Please feel free to reach out to us at ![bismarkokleteyamanor@gmail.com]() for any questions or feedback about the app.
+
+## Additional notes
+
+- This app is currently in development, some features may not be fully functional or present. Focusing has only been on the android version of the app, and the IOS version may not be fully functional yet.
 
 ## License
 

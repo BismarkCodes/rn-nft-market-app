@@ -5,11 +5,13 @@ import {useSelector} from 'react-redux';
 import CustomText from '../../text/CutomText';
 import {Colors} from '../../../constants/colors';
 
-const CategoryTextItem: React.FC<{
+interface Props {
   item: string | object;
   active: boolean;
   onPress: object;
-}> = ({item, active, onPress}) => {
+}
+
+const CategoryTextItem: React.FC<Props> = ({item, active, onPress}) => {
   // hooks
   const {isDarkMode} = useSelector(state => state.theme);
 

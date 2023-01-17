@@ -6,10 +6,12 @@ import {GlobalStyles} from '../styles/GlobalStyles';
 import {Colors} from '../../constants/colors';
 import CustomText from '../text/CutomText';
 
-const MainButton: React.FC<{text: string; onPress: object}> = ({
-  text,
-  onPress,
-}) => {
+interface Props {
+  text: string;
+  onPress: object;
+}
+
+const MainButton: React.FC<Props> = ({text, onPress}) => {
   // hooks
   const {isDarkMode} = useSelector(state => state.theme);
 

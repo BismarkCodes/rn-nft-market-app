@@ -7,11 +7,13 @@ import CustomTitle from '../../text/CutomTitle';
 import CreatorMiniCard from './CreatorMiniCard';
 import {Colors} from '../../../constants/colors';
 
-const NFTMiniCard: React.FC<{
+interface Props {
   item: object;
   type: 'full' | 'mini';
   onPress: object;
-}> = ({item, type, onPress}) => {
+}
+
+const NFTMiniCard: React.FC<Props> = ({item, type, onPress}) => {
   // hooks
   const {isDarkMode} = useSelector(state => state.theme);
 
