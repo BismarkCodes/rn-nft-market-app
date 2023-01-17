@@ -45,10 +45,10 @@ Dark Mode
 ![Empty State](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/empty_drk.png)
 ![Saved NFTs](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/saved_drk.png)
 ![Auction](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/auction_drk.png)
-![Profile](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/profile_drk.png)
+![Profile](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/profile_dark.png)
 ![Search](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/search_drk.png)
 ![Search Filter](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/search_filter_drk.png)
-![Notification](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/notification_dark.png)
+![Notification](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/notification_drk.png)
 
 ## Installation
 
