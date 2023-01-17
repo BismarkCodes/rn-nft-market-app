@@ -55,7 +55,7 @@ Dark Mode
 Clone or Fork the repository and then run the following code.
 
 ```bash
-yarn
+yarn install
 ```
 
 ## Dependencies
