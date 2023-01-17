@@ -117,7 +117,7 @@ react-native run-android
 
 ## Contributing
 
-We welcome contributions to this project. Please read the ![CONTRIBUTING.md]() for details on our code of conduct, coding standards, and the process for submitting pull requests.
+We welcome contributions to this project. Please read the [CONTRIBUTING.md](https://github.com/BismarkCodes/rn-nft-market-app/blob/main/CONTRIBUTION.md) and [STYLEGUIDE.md](https://github.com/BismarkCodes/rn-nft-market-app/blob/main/STYLEGUIDE.md) for details on our code of conduct, coding standards, and the process for submitting pull requests.
 
 ## Versioning
 
