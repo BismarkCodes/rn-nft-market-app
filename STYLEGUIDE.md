@@ -6,7 +6,7 @@ This style guide provides guidelines for coding standards, naming conventions, a
 
 - We use Prettier to format our code.
 - We use ESLint to check for code quality and adherence to coding standards.
-- We use ![Airbnb's JavaScript Style Guide](https://github.com/airbnb/javascript) as a reference for our coding standards.
+- We use [Airbnb's JavaScript Style Guide](https://github.com/airbnb/javascript) as a reference for our coding standards.
 
 Please make sure your code adheres to these standards before submitting a pull request.
 
@@ -110,4 +110,4 @@ Also, make sure to include the proper documentation for the functions, hooks, an
 
 Thank you for your commitment to these standards and for contributing to the NFT Marketplace App.
 
-Please let me know, via email ![bismarkokleteyamanor@gmail.com](), if you have any questions or need assistance, I am happy to help.
+Please let me know, via email [bismarkokleteyamanor@gmail.com](), if you have any questions or need assistance, I am happy to help.

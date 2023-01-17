@@ -18,13 +18,13 @@ We use GitHub Issues to track bugs and feature requests. Before creating a new i
 
 ## Code of Conduct
 
-We follow the ![Contributor Covenant](https://www.contributor-covenant.org/) code of conduct. By participating in this project, you are expected to uphold this code. Please report any unacceptable behavior to ![bismarkokleteyamanor@gmail.com]()
+We follow the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct. By participating in this project, you are expected to uphold this code. Please report any unacceptable behavior to ![bismarkokleteyamanor@gmail.com]()
 
 ## Coding Standards and Style Guides
 
 - We use Prettier to format our code.
 - We use ESLint to check for code quality and adherence to coding standards.
-- We use ![Airbnb's JavaScript Style Guide](https://github.com/airbnb/javascript) as a reference for our coding standards. Kindly read our [STYLEGUIDE.md](https://github.com/BismarkCodes/rn-nft-market-app/blob/main/STYLEGUIDE.md) for more details.
+- We use [Airbnb's JavaScript Style Guide](https://github.com/airbnb/javascript) as a reference for our coding standards. Kindly read our [STYLEGUIDE.md](https://github.com/BismarkCodes/rn-nft-market-app/blob/main/STYLEGUIDE.md) for more details.
 
 Please make sure your code adheres to these standards before submitting a pull request.
 
@@ -34,7 +34,7 @@ Additionally, please make sure to update the README and other relevant documenta
 
 ## Contact
 
-If you have any questions or need assistance, please feel free to reach out to me at ![bismarkokleteyamanor@gmail.com]()
+If you have any questions or need assistance, please feel free to reach out to me at [bismarkokleteyamanor@gmail.com]()
 
 Thank you for your commitment to following these guidelines and making sure that the codebase stays consistent, readable and maintainable.
 

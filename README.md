@@ -121,15 +121,15 @@ We welcome contributions to this project. Please read the [CONTRIBUTING.md](http
 
 ## Versioning
 
-We use ![SemVer](https://semver.org/) for versioning.
+We use [SemVer](https://semver.org/) for versioning.
 
 ## Authors
 
-- ![Bismark Okletey](https://github.com/BismarkCodes/)
+- [Bismark Okletey](https://github.com/BismarkCodes/)
 
 ## Contributors
 
-This repo currently has no contributers. To contribute, create a pull request ![here]()
+This repo currently has no contributers. To contribute, create a pull request [here](https://github.com/BismarkCodes/rn-nft-market-app/pulls) but before that, kindly read our [CONTRIBUTING.md](https://github.com/BismarkCodes/rn-nft-market-app/blob/main/CONTRIBUTION.md) guide to get started.
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
@@ -147,7 +147,7 @@ This is not a production-ready application and is intended for educational and d
 
 ## Contact
 
-Please feel free to reach out to us at ![bismarkokleteyamanor@gmail.com]() for any questions or feedback about the app.
+Please feel free to reach out to us at [bismarkokleteyamanor@gmail.com] for any questions or feedback about the app.
 
 ## Additional notes
 
