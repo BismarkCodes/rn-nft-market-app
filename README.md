@@ -24,9 +24,31 @@ Feel free to Clone or Fork this repository and check out the source code, there'
 ## Screenshots
 
 Ligh Mode
-![Home](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/loading_light.png)
+
+![Home Loading](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/loading_light.png)
+![Home](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/home_light.png)
+![NFT Detial](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/nft_2_light.png)
+![Empty State](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/empty_light.png)
+![Saved NFTs](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/saved_light.png)
+![Auction](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/auction_light.png)
+![Profile](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/profile_light.png)
+![Search](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/search_light.png)
+![Search Filter](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/search_filter_light.png)
+![Notification](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/notification_light.png)
+
 
 Dark Mode
+
+![Home Loading](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/loading_drk.png)
+![Home](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/home_drk.png)
+![NFT Detial](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/nft_drk.png)
+![Empty State](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/empty_drk.png)
+![Saved NFTs](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/saved_drk.png)
+![Auction](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/auction_drk.png)
+![Profile](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/profile_drk.png)
+![Search](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/search_drk.png)
+![Search Filter](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/search_filter_drk.png)
+![Notification](https://raw.githubusercontent.com/BismarkCodes/rn-nft-market-app/main/assets/images/screenshots/notification_dark.png)
 
 ## Installation
 
