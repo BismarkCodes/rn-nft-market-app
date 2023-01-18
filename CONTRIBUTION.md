@@ -18,7 +18,7 @@ We use GitHub Issues to track bugs and feature requests. Before creating a new i
 
 ## Code of Conduct
 
-We follow the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct. By participating in this project, you are expected to uphold this code. Please report any unacceptable behavior to ![bismarkokleteyamanor@gmail.com]()
+We follow the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct. By participating in this project, you are expected to uphold this code. Please report any unacceptable behavior to [bismarkokleteyamanor@gmail.com]()
 
 ## Coding Standards and Style Guides
 
